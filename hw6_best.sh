@@ -1,0 +1,1 @@
+python3 code/hw6_best.py $1 $2
