@@ -54,7 +54,7 @@ class Attacker:
     def __init__(self, img_dir, label):
         # 讀入預訓練模型 vgg16
         # DenseNet-121
-        self.model = models.resnet101(pretrained = True)
+        self.model = models.densenet121(pretrained = True)
         self.model.cuda()
         self.model.eval()
         self.mean = [0.485, 0.456, 0.406]
